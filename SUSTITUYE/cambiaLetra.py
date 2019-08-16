@@ -1,5 +1,6 @@
 entrada="aeiou"
 salida="AEIOU"
-cambio=str.maketrans(entrada,salida)
+numero="12345"
+cambio=str.maketrans(entrada,numero)
 str=input("Escribe:")
 print(str.translate(cambio))
